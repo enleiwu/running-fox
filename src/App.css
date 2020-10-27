@@ -1,0 +1,49 @@
+:root {
+  --white: #ffffff;
+  --lightGray: #d3d3d3;
+  --darkGray: #a9a9a9;
+  --lightSteelBlue: #e3e9f3;
+  --blue: #6868ff;
+}
+
+.App {
+  background-color: var(--lightGray);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background-color:var(--lightSteelBlue);
+  display:flex;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 20px;
+  width: 70%;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.right-col {
+  width: 45%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-col > .sections {
+  height: 47%;
+}
+
+.sections {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 5px 10px 18px var(--lightGray);
+}
+
+/* ------- */
+
+.sub-strings {
+  font-size: 12px;
+  color: var(--darkGray);
+  font-weight: bold;
+}

@@ -1,0 +1,181 @@
+.plan {
+    width: 50%;
+    padding: 30px;
+}
+
+.plan > button:last-child {
+    margin-top: 30px;
+}
+
+.plan-header > h4{
+    margin: 0;
+}
+
+.current-plan {
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid var(--blue);
+    background-color: var(--lightSteelBlue);
+    justify-content: space-between;
+    border-radius: 5px;
+    height: 85px;
+    margin-top: 30px;
+}
+
+.plan-type {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-icon {
+    width: 65px;
+    height: 100%;
+    background-color: var(--blue);
+    border-radius: 5px;
+}
+
+.plan-icon > svg {
+    margin:auto;
+    display: block;
+}
+
+.plan-name {
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.plan-name > h5 {
+    text-transform: capitalize;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.plan-price{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.plan-price > * {
+    margin: 0;
+}
+
+.plan-price > p {
+    color: var(--darkGray);
+    font-weight: bold;
+}
+
+.plan-price > h2 {
+    font-size:30px;
+    font-weight: 400;
+}
+
+.plan-price > p:last-child {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.card {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card-info {
+    display: flex;
+}
+
+.card-icon {
+    width: 55px;
+    height: 100%;
+    background-color: var(--lightSteelBlue);
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.card-icon > svg {
+    margin: auto;
+    display: block;
+}
+
+.card-num {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.card-num > * {
+    margin:0;
+}
+
+.card-num > p {
+    font-size: 12px;
+    color: var(--darkGray);
+}
+
+.card-cvc {
+    width: 60px;
+}
+
+.email {
+    margin-top: 30px;
+    height: 45px;
+    width: 100%;
+}
+
+/* ---------- */
+
+.link-button {
+    color: var(--blue);
+    background-color: unset;
+    border: none;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 0;
+    cursor:pointer;
+}
+
+.link-button:focus {
+    outline:none;
+    border:none;
+}
+
+.solid-button {
+    background-color: var(--blue);
+    color: var(--white);
+    height: 60px;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    border-radius: 5px;
+    border:none;
+    position: relative;
+    outline:none;
+    cursor:pointer;
+}
+
+.solid-button > svg {
+    position: absolute;
+    margin-left: 10px;
+}
+
+input[type=text] {
+    border: 2px solid var(--lightGray);
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type=text]::placeholder {
+    color: var(--lightGray);
+}

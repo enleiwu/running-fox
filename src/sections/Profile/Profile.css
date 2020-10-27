@@ -1,0 +1,81 @@
+.profile {
+    padding: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.background-img {
+    width: 100%;
+    height: 85px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.avatar {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 3px;
+    background-color: var(--white);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50px;
+}
+
+.avatar > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.name {
+    margin-top: 35px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.location {
+    margin: 0;
+}
+
+.level {
+    width: 80px;
+    height: 25px;
+    border-radius: 50px;
+    color: var(--white);
+    background-color: var(--blue);
+    font-size:11px;
+    font-weight: 500;
+    padding: 6px;
+    box-sizing: border-box;
+    display:block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.social-data {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.social-data > div {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+.social-data > div > * {
+    margin: 0;
+    text-align: start;
+}
+
+.social-data > div > h2 {
+    font-weight: 400;
+}
